@@ -1,0 +1,19 @@
+{
+  "name": "replied",
+  "version": "1.0.0",
+  "description": "REST APIs for the user management of Replied",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anash Shelat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
+  },
+  "type": "module"
+}
